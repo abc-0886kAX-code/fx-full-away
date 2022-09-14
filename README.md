@@ -1,9 +1,9 @@
 <!--
- * @FilePath: \undefinede:\前端\fx-full-away\README.md
+ * @FilePath: \fx-full-away\README.md
  * @Author: zhangxin
  * @Date: 2022-09-02 09:46:03
  * @LastEditors: zhangxin
- * @LastEditTime: 2022-09-14 14:05:24
+ * @LastEditTime: 2022-09-14 14:57:25
  * @Description:
 -->
 
@@ -24,13 +24,15 @@ arcgis图层服务地址 : .env : VUE_APP_ARCGIS_SERVER
 本地遮罩层JSON数据 ： .env : VUE_APP_MASK_URL
 ```
 
-## 系统对应权限表 context.js /src/biz/User/share/context.js
+## 系统对应权限文件 context.js /src/biz/User/share/context.js
 
 ```
 用户身份类型 Identity.js /src/biz/User/entity/Identity.js
 身份定位配置 location.js /src/biz/User/share/location.js
 用户身份对应图层 layers.js /scr/biz/User/share/layers.js
 ```
+
+## 新增或修改权限相关
 
 ### 身份类型
 
@@ -85,7 +87,7 @@ _对应文件中找到 menu 菜单数组，每一个对象中增加或修改 pow
 山洪防御 flash-flood-defense-menu.json
 ```
 
-## 系统 socket 说明
+## 系统 socket
 
 _连接与断开/地址的替换/用法_
 
