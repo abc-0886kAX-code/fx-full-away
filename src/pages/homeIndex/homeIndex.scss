@@ -1,0 +1,53 @@
+.home-index {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    & .rainfall-forecast {
+        width: 100%;
+        height: 29vh;
+        z-index: 102;
+        overflow: hidden;
+        color: #fff;
+    }
+
+    & .real-time-monitor {
+        width: 100%;
+        height: 29vh;
+        z-index: 102;
+        overflow: hidden;
+        color: #fff;
+    }
+
+    & .digital-twins {
+        width: 100%;
+        height: 29vh;
+        z-index: 102;
+        overflow: hidden;
+        color: #fff;
+    }
+
+    & .flash-flood-defense {
+        width: 100%;
+        height: 29vh;
+        z-index: 102;
+        overflow: hidden;
+        color: #fff;
+    }
+
+    & .basin-flood {
+        width: 100%;
+        height: 29vh;
+        z-index: 102;
+        overflow: hidden;
+        color: #fff;
+    }
+
+    & .city-waterlogging {
+        width: 100%;
+        height: 29vh;
+        z-index: 102;
+        overflow: hidden;
+        color: #fff;
+    }
+}

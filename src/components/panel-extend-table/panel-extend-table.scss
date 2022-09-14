@@ -1,0 +1,51 @@
+$first:#02ff02;
+$second:#0264ff;
+$third:#fffb05;
+$fourth:#ffac05;
+$fifth:#f171f9;
+$sixth:#fe0202;
+
+.panel-extend-table {
+    & .panel-extend-table-label {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        overflow: hidden;
+
+        &:nth-child(1) .panel-extend-table-label-icon {
+            background-color: $first;
+        }
+
+        &:nth-child(2) .panel-extend-table-label-icon {
+            background-color: $second;
+        }
+
+        &:nth-child(3) .panel-extend-table-label-icon {
+            background-color: $third;
+        }
+
+        &:nth-child(4) .panel-extend-table-label-icon {
+            background-color: $fourth;
+        }
+
+        &:nth-child(5) .panel-extend-table-label-icon {
+            background-color: $fifth;
+        }
+
+        &:nth-child(6) .panel-extend-table-label-icon {
+            background-color: $sixth;
+        }
+
+        & .panel-extend-table-label-icon {
+            align-self: center;
+            display: block;
+            width: 12px;
+            height: 12px;
+            margin-right: 6px;
+            border: 1px solid #666;
+            border-radius: 50%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+    }
+}

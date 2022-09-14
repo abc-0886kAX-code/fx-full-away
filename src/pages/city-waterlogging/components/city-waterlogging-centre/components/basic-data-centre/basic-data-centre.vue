@@ -1,0 +1,67 @@
+<template>
+    <div class="basic-data-centre">
+        <el-tree
+            class="tree-check"
+            :data="treeMenu"
+            :show-checkbox="true"
+            :default-expand-all="true"
+            :check-on-click-node="true"
+            :expand-on-click-node="false"
+            node-key="key"
+            @check-change="handlerCheckChange"
+        >
+            <span class="el-tree-node__label" slot-scope="{ node, data }">
+                <span>{{ node.label }}</span>
+                <tree-legend :node="node" :data="data"></tree-legend>
+            </span>
+        </el-tree>
+
+        <template v-for="tmp in treeDataSource">
+            <component
+                v-if="tmp.render"
+                :key="tmp.key"
+                :is="tmp.componentName"
+                :node="tmp"
+                :attr="tmp.props"
+            >
+            </component>
+        </template>
+    </div>
+</template>
+
+<script>
+//这里可以导入其他文件（比如：组件，工具js，第三方插件js，json文件，图片文件等等）
+//例如：import 《组件名称》 from '《组件路径》';
+import { default as useCheckTree } from "@/composables/biz-tree/useCheckTree";
+import SelectListData from "../../api/select-list";
+import { selectListInstall } from "./components/install";
+export default {
+    name: "basic-data-centre",
+    //混入
+    mixins: [],
+    //import引入的组件需要注入到对象中才能使用
+    components: { ...selectListInstall },
+    props: {},
+    setup() {
+        const { treeDataSource, transformTree, treeAddNode, treeDelNode } =
+            useCheckTree();
+
+        function handlerCheckChange(node, status) {
+            if (status) {
+                treeAddNode(node);
+            } else {
+                treeDelNode(node);
+            }
+        }
+
+        return {
+            treeDataSource,
+            treeMenu: transformTree("cbr", SelectListData),
+            handlerCheckChange,
+        };
+    },
+};
+</script>
+<style lang='scss' scoped>
+@import "@/assets/style/tree.scss";
+</style>

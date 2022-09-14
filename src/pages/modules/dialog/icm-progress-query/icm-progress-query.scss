@@ -1,0 +1,17 @@
+.icm-progress-query{
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    &-item{
+        margin-bottom: 20px;
+    }
+}
+
+/deep/ .el-breadcrumb__inner,
+/deep/ .el-breadcrumb__inner:last-child{
+    color: #fff !important;
+}

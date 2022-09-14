@@ -1,0 +1,100 @@
+$bgAlpha: 0.8;
+$color: #333;
+$bg: rgba(10, 11, 51, $alpha: .7);
+$shadow: rgba($color: $color, $alpha: .3);
+
+$sliderColor: #C2F345;
+$sliderBottomColor: #147C9A;
+
+// 头部导航二级栏目样式
+.second-nav {
+    display: flex;
+    background-color: rgba($color: #fff, $alpha: $bgAlpha);
+    box-shadow: 3px 3px 8px rgba($color: #333, $alpha: $bgAlpha);
+
+    & .el-menu {
+        background-color: transparent;
+    }
+
+    &.el-menu--horizontal .el-menu .el-menu-item,
+    .el-menu--horizontal .el-menu .el-submenu__title {
+        background-color: transparent;
+    }
+
+    & .el-menu-item span {
+        display: flex;
+        font-size: 14px;
+        line-height: 26px;
+        color: #5b7799;
+        padding: 0 12px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba($color: #333, $alpha: $bgAlpha);
+            color: #fff;
+
+            &::before {
+                background: url(~@/assets/images/home/acmenu.png) no-repeat;
+            }
+        }
+    }
+
+    & .el-menu-item span::before {
+        content: '';
+        align-self: center;
+        display: block;
+        width: 6px;
+        height: 6px;
+        margin-right: 6px;
+        background: url(~@/assets/images/home/menu.png) no-repeat;
+    }
+
+    & .is-active span {
+        background-color: rgba($color: #333, $alpha: $bgAlpha);
+        color: #fff;
+
+        &::before {
+            background: url(~@/assets/images/home/acmenu.png) no-repeat;
+        }
+    }
+}
+
+// 屏幕网格弹框
+.screen-grid-select-popover {
+    background-color: $bg  !important;
+    backdrop-filter: blur(3px);
+    box-shadow: inset 0px 15px 15px -15px $shadow,
+        inset 0px -15px 15px -15px $shadow;
+
+    & h3 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+}
+
+// 播片slider
+.play-slice-axis-slider {
+    & .el-slider__runway {
+        transition: all 0.25s;
+        background-image: linear-gradient(to right, $sliderColor, $sliderBottomColor);
+    }
+
+    & .el-slider__runway.disabled {
+        background-image: linear-gradient(to right, rgba($sliderColor, 0.6), rgba($sliderBottomColor, 0.6));
+    }
+
+    & .el-slider__bar {
+        transition: all 0.25s;
+        background-image: linear-gradient(to right, $sliderBottomColor, $sliderColor);
+    }
+
+    & .el-slider__runway.disabled .el-slider__bar {
+        background-image: linear-gradient(to right, rgba($sliderBottomColor, 0.6), rgba($sliderColor, 0.6));
+    }
+
+    & .el-slider__button {
+        border-color: $sliderColor;
+        background-color: $sliderBottomColor;
+    }
+}

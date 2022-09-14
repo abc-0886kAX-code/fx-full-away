@@ -1,0 +1,59 @@
+.charts-pages-layout {
+    width: 100%;
+    height: 100% !important;
+    // height: calc(100% - 60px);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    // box-shadow: inset 0px 15px 15px -15px rgba($color: #B3F8E4, $alpha: 0.4),
+    //     inset 0px -15px 15px -15px rgba($color: #B3F8E4, $alpha: 0.2);
+    // box-sizing: border-box;
+
+    & .echarts {
+        width: calc(100% - 280px);
+        height: 100%;
+        overflow: hidden;
+
+        & .echarts-body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    }
+
+    & .echarts-all {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        & .echarts-body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    }
+
+    & .search-bar {
+        width: 260px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+
+        &>h3 {
+            width: 100%;
+            height: 32px;
+            line-height: 32px;
+            font-size: 18px;
+            color: #eee;
+            margin: 20px 0;
+            padding: 0 10px;
+            border-radius: 6px;
+            background-color: #267feb;
+            box-sizing: border-box;
+        }
+    }
+}
+
+/deep/ .el-date-editor.el-input,
+.el-date-editor.el-input__inner {
+    width: 100%;
+}

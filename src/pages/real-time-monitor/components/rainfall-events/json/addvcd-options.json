@@ -1,0 +1,70 @@
+[
+    {
+        "label": "东城区",
+        "value": "dc"
+    },
+    {
+        "label": "西城区",
+        "value": "cx"
+    },
+    {
+        "label": "朝阳区",
+        "value": "cy"
+    },
+    {
+        "label": "丰台区",
+        "value": "ft"
+    },
+    {
+        "label": "海淀区",
+        "value": "hd"
+    },
+    {
+        "label": "石景山区",
+        "value": "sjs"
+    },
+    {
+        "label": "平谷区",
+        "value": "589F377E-C0CE-4F84-84B4-81E7FC021BA2"
+    },
+    {
+        "label": "昌平区",
+        "value": "5BE7A9E8-05E0-4FC0-8DE4-66275EF877D5"
+    },
+    {
+        "label": "房山区",
+        "value": "712C4F51-5325-477E-A7D4-0905243CA27F"
+    },
+    {
+        "label": "顺义区",
+        "value": "79450D24-1161-4EAA-8952-3BDC47CF63C2"
+    },
+    {
+        "label": "密云区",
+        "value": "7D0A3B63-34BF-4F74-80CE-C58A1B41E6C7"
+    },
+    {
+        "label": "通州区",
+        "value": "86CFF0BE-0159-49E5-9926-85096A37D944"
+    },
+    {
+        "label": "延庆区",
+        "value": "94F80886-A6AD-4269-AE01-2FDD9C532A81"
+    },
+    {
+        "label": "大兴区",
+        "value": "95FC73B3-55C2-47D5-B271-154DD9ECAEA9"
+    },
+    {
+        "label": "门头沟区",
+        "value": "F4C0D58D-E740-4F2F-9BDD-D088ABE40227"
+    },
+    {
+        "label": "城区",
+        "value": "1AEFC8F4-525E-4A8B-A6C2-16CDB76B3AF1"
+    },
+    {
+        "label": "怀柔区",
+        "value": "30226A03-A496-4C3A-849E-DAE382BC7AC2"
+    }
+]

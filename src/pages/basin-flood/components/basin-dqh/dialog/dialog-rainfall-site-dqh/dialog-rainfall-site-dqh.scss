@@ -1,0 +1,59 @@
+.dialog-rainfall-site-dqh {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+
+
+    & .echarts {
+        width: 100%;
+        // calc(100% - 280px) 
+        height: 100%;
+        overflow: hidden;
+
+        & .ytxd-biz-chart {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    }
+
+
+    & .search-bar {
+        width: 260px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+
+        &>h3 {
+            width: 100%;
+            height: 32px;
+            line-height: 32px;
+            font-size: 18px;
+            color: #eee;
+            margin: 20px 0;
+            padding: 0 10px;
+            border-radius: 6px;
+            background-color: #267feb;
+            box-sizing: border-box;
+        }
+
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            align-items: center;
+
+            &>span {
+                width: 50px;
+            }
+        }
+
+
+    }
+
+    &-btn {
+        position: relative;
+        left: 40%;
+    }
+}

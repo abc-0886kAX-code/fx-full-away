@@ -1,0 +1,38 @@
+.ytxd-menu {
+    border: none;
+    background-color: transparent;
+}
+
+.el-menu.el-menu {
+    border-bottom: none;
+}
+
+.el-menu>.el-menu-item {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 2px solid transparent;
+    color: #fff;
+    font-size: 14px;
+}
+
+.el-menu>.el-menu-item:hover {
+    background: transparent;
+    color: #75FAFD;
+}
+
+.el-menu>.el-menu-item:hover i {
+    color: #75FAFD;
+}
+
+.el-menu>.el-menu-item.is-active {
+    color: #75FAFD;
+    background: transparent;
+}
+
+.el-menu>.el-menu-item.is-active i {
+    color: #75FAFD;
+}
+
+.el-menu-item i {
+    color: #fff;
+}

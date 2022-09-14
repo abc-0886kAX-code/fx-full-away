@@ -1,0 +1,10 @@
+.ytxd-tree{
+    background-image: linear-gradient(to right, #122F57, #10244b);
+    & .ytxd-tree-cell{
+        width: 100%;
+        margin-left: 24px;
+        & .ytxd-tree-context{
+            width: 100%;
+        }
+    }
+}

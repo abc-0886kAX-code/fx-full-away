@@ -1,0 +1,57 @@
+.ytxd-movie-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    & .controller{
+        width: 100%;
+        height: 40px;
+    }
+    & .context{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: calc(100% - 50px);
+        box-sizing: border-box;
+        transition:  all 0.3s;
+        & .context-slider{
+            width: 100%;
+            height: 40px;
+            padding: 0 20px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        & .context-main{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: calc(100% - 50px);
+            & .switch-img{
+                display: flex;
+                justify-content: center;
+                flex: 0.98;
+                height: 100%;
+                &>img{
+                    align-self: center;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 0;
+                    object-fit: contain;
+                    overflow: hidden;
+                }
+            }
+            & .time-axis{
+                width: 200px;
+                height: 100%;
+                overflow: hidden;
+            }
+            /deep/ .el-scrollbar__wrap{
+                overflow-x: hidden;
+            }
+        }
+    }
+}

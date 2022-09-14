@@ -1,0 +1,17 @@
+[
+    {
+        "key": "flood-simulation",
+        "label": "快速预报",
+        "status": false,
+        "legend": "",
+        "children": [
+            {
+                "key": "rainfall-site",
+                "label": "特征断面",
+                "status": false,
+                "legend": "#26c689",
+                "children": []
+            }
+        ]
+    }
+]

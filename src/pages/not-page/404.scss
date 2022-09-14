@@ -1,0 +1,26 @@
+$color:#F7EED6;
+$textShadow:rgba($color: $color, $alpha: .8);
+
+.ytxd-not-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #10244b, $alpha: 0.6);
+    overflow: hidden;
+    & .ytxd-not-page-img,
+    & .ytxd-not-page-button-group{
+        align-self: center;
+    }
+    & .ytxd-not-page-text{
+        text-align: center;
+        padding: 60px 0;
+        height: 32px;
+        line-height: 32px;
+        font-size: 24px;
+        letter-spacing: 3px;
+        color: $color;
+        text-shadow: 0 0 10px $textShadow,0 0 20px $textShadow,0 0 30px $textShadow,0 0 40px $textShadow;
+    }
+}

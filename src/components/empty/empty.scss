@@ -1,0 +1,24 @@
+.ytxd-empty {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.ytxd-empty-image {
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+.ytxd-empty-image svg {
+    height: 100%;
+    margin: auto;
+}
+
+.ytxd-empty-description {
+    margin: 0;
+    color: #fff !important;
+}

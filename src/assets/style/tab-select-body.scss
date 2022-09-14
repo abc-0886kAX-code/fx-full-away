@@ -1,0 +1,21 @@
+.tab-body {
+    height: calc(100% - 60px) !important;
+
+    .tab-chart {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+
+        &-select {
+            height: 15%;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        &-box {
+            height: 85%;
+        }
+    }
+}

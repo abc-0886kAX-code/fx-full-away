@@ -1,0 +1,59 @@
+.city-waterlogging {
+
+    &/deep/ .el-table--border,
+    .el-table--group {
+        background-color: transparent;
+    }
+
+    &/deep/ .el-table tr {
+        background-color: rgba(173, 197, 217, 0.1);
+        color: #fff;
+    }
+
+    &/deep/ .el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell {
+        background-color: rgba(5, 19, 42, 0.3);
+        color: #fff;
+    }
+
+    &/deep/ .el-table th.el-table__cell {
+        background: -webkit-linear-gradient(#094C82, #97CCF8);
+        color: #fff;
+    }
+
+    &/deep/ .el-table--border .el-table__cell {
+        border-bottom: 1px solid #173D55;
+    }
+
+    &/deep/ .el-table th.el-table__cell.is-leaf {
+        border-bottom: 1px solid #173D55;
+    }
+
+    &/deep/ .el-table--border .el-table__cell,
+    .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+        border-bottom: 1px solid #173D55;
+    }
+
+    &/deep/ .el-table__cell {
+        border-right: 1px solid #173D55;
+        background-color: transparent;
+    }
+
+
+    // 鼠标移入
+    &/deep/ .el-table__body tr.hover-row>td.el-table__cell {
+        background-color: transparent;
+    }
+
+    // 选中
+    &/deep/ .el-table__body tr.current-row>td.el-table__cell {
+        background-color: transparent;
+    }
+
+
+
+
+
+
+
+
+}

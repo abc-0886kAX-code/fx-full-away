@@ -1,0 +1,52 @@
+{
+    "defaultID": "e7c011a06efa4db7b8514198dcbafcee",
+    "menu": [
+        {
+            "id": "e7c011a06efa4db7b8514198dcbafcee",
+            "label": "实时监测",
+            "component": "real-time-monitor-default",
+            "render": false,
+            "fragment": true
+        },
+        {
+            "id": "4be27ac06cf24609b24a0c598f372874",
+            "label": "实时监测",
+            "component": "real-time-monitor-default-map"
+        },
+        {
+            "id": "36f37e07511d43158fa5add80812204d",
+            "label": "实时降雨量等值面图",
+            "component": "real-time-rainfall-isosurface"
+        },
+        {
+            "id": "899e663f76a748ee8c2070e7bbfca307",
+            "label": "降雨量对比图",
+            "dialog": "rainfall-comparison-chart"
+        },
+        {
+            "id": "1954526f88cd493aa3c5b275941e5243",
+            "label": "实时雨情-雨量站",
+            "component": "real-time-rainfall"
+        },
+        {
+            "id": "0ee20bb5a4e242d993ec510ddbec0195",
+            "label": "实时水情-河道水文站",
+            "component": "real-time-river-hydrological"
+        },
+        {
+            "id": "123c691aaf8744f4a98fa18dc167d05c",
+            "label": "实时水情-水库水文站",
+            "component": "real-time-reservoir-hydrological"
+        },
+        {
+            "id": "cbd958f3991549238178cd98104a8382",
+            "label": "视频监控",
+            "component": "real-time-video-surveillance"
+        },
+        {
+            "id": "d4b21329fca44840a94fe25b15175ba5",
+            "label": "场次降雨",
+            "dialog": "rainfall-events"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "key": "flood-control-plug",
+        "label": "防洪堵口",
+        "status": false,
+        "legend": "#880091",
+        "children": []
+    },
+    {
+        "key": "dike-danger-worker",
+        "label": "堤防险工",
+        "status": false,
+        "legend": "#28AD00",
+        "children": []
+    },
+    {
+        "key": "river",
+        "label": "河道",
+        "status": false,
+        "legend": "#AD00A2",
+        "children": []
+    },
+    {
+        "key": "reservoir",
+        "label": "水库",
+        "status": false,
+        "legend": "#cdfad1",
+        "children": []
+    },
+    {
+        "key": "gate-dam",
+        "label": "闸坝",
+        "status": false,
+        "legend": "#00C5FF",
+        "children": []
+    }
+]

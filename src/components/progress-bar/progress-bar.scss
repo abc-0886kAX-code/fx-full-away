@@ -1,0 +1,73 @@
+$color:#10244b;
+$bg:rgba($color: $color, $alpha: .6);
+$shadow:rgba($color: $color, $alpha: .3);
+.ytxd-progress-bar{
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+    background-color: $bg;
+    backdrop-filter: blur(3px);
+    box-shadow:inset 0px 15px 15px -15px $shadow,
+            inset 0px -15px 15px -15px $shadow;
+    cursor: pointer;
+    & .progress-label{
+        position: absolute;
+        top: -50px;
+        left: 0;
+        width: 160px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 16px;
+        background-color: $bg;
+        backdrop-filter: blur(3px);
+        box-shadow:inset 0px 15px 15px -15px $shadow,
+                inset 0px -15px 15px -15px $shadow;
+        color: #F7EED6;
+        border-radius: 6px;
+        text-align: center;
+        &::before{
+            content: '';
+            position:absolute;
+            bottom: -20px;
+            left: 50%;
+            display: block;
+            width: 0;
+            height: 0;
+            margin-left: -5px;
+            backdrop-filter: blur(3px);
+            box-shadow:inset 0px 15px 15px -15px $shadow,
+                    inset 0px -15px 15px -15px $shadow;
+            border:10px solid;
+            border-color: $bg transparent transparent transparent;
+        }
+    }
+    & .progress-bar{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        transition: all 0.1s;
+        background-color: rgba($color: #F7EED6, $alpha: 1);
+        border-radius: 6px;
+        box-shadow:inset 0px 15px 15px -15px $shadow,
+                inset 0px -15px 15px -15px $shadow;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: -11px;
+            z-index: 101;
+            display: block;
+            width: 20px;
+            height: 20px;
+            margin-top: -10px;
+            background: url('~@/assets/images/radar/btn.png') no-repeat center center;
+            background-size: cover;
+            overflow: hidden;
+        }
+    }
+}

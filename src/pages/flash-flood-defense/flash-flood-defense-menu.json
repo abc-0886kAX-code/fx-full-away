@@ -1,0 +1,38 @@
+{
+    "defaultID": "c7aeca84009a44be9ff4cba2a4593aec",
+    "menu": [
+        {
+            "id": "c7aeca84009a44be9ff4cba2a4593aec",
+            "label": "山洪防御",
+            "component": "flash-flood-defense-default",
+            "fragment": true,
+            "power": [
+                0
+            ]
+        },
+        {
+            "id": "0706451cac2e4b59bfa28471f28a083c",
+            "label": "_山洪防御",
+            "component": "flash-flood-defense-table",
+            "power": [
+                0
+            ]
+        },
+        {
+            "id": "4bf4bba42597460692e89479a4af487c",
+            "label": "全市",
+            "component": "defense-county",
+            "power": [
+                0
+            ]
+        },
+        {
+            "id": "1f6f0cdb86db41ea81c42bdc3a2a09ca",
+            "label": "平谷区",
+            "component": "defense-county",
+            "power": [
+                0
+            ]
+        }
+    ]
+}

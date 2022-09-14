@@ -1,0 +1,45 @@
+.briefing {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.simulationTitle {
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 40px;
+    background: url(~@/assets/icon/briefing.png)no-repeat;
+    background-position: 10px;
+    font-weight: 700;
+    border-bottom: 1px dashed #FFFFFF;
+}
+
+.simulationBox {
+    width: 84%;
+    border: 1px solid #82BEDC;
+    // margin: 10px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(#094C82, #15A7DB);
+    margin: 0 auto;
+}
+
+.simulationBox div {
+    height: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.simulationBox div a {
+    letter-spacing: 1px;
+}
+
+.simulationBox div span {
+    float: right;
+    font-weight: 500;
+    color: #FBC406;
+    padding-right: 15px;
+}

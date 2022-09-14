@@ -1,0 +1,137 @@
+@import "./element.scss";
+$bg: transparent;
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: $bg;
+    overflow: hidden;
+    border: hidden;
+
+    .el-popper {
+        z-index: 9999 !important;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ol,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+i {
+    font-style: normal;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    background-color: $bg;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: none;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont {
+    width: 24px;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.ytxd-pages {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mg-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.el-pagination {
+    align-self: center;
+}
+
+.el-dialog__wrapper {
+    user-select: none;
+}
+
+.el-dialog {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0 !important;
+}
+
+.el-dialog__header,
+.el-dialog__body {
+    padding: 0 !important;
+}
+
+.el-table__body-wrapper {
+    content-visibility: auto;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    width: 6px;
+    background: rgba(#98d9ff, 0.1);
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(#98d9ff, 0.5);
+    background-clip: padding-box;
+    min-height: 28px;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(#98d9ff, 1);
+}
+
+:root {
+    --green: #52c41a;
+}

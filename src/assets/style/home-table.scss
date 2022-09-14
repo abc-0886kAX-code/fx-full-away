@@ -1,0 +1,30 @@
+//表格
+::v-deep .vxe-table {
+    background-color: rgba(173, 197, 217, 0.1);
+}
+//表格整体背景色
+::v-deep .vxe-table--render-default .vxe-table--body-wrapper {
+    background-color: transparent;
+}
+// 表格头部
+::v-deep .vxe-table--header-wrapper,
+.vxe-table--header {
+    background: -webkit-linear-gradient(#094c82, #2a72ac, #67b2ef);
+    color: #fff;
+}
+// 表格主体单元格
+::v-deep .vxe-table--body-wrapper .vxe-table--body tbody tr.vxe-body--row {
+    background-color: rgba(5, 19, 42, 0.1);
+    color: #fff;
+}
+// 表格主体单元格
+::v-deep .vxe-table--body-wrapper .vxe-table--body tbody tr.row--stripe {
+    background-color: rgba(5, 19, 42, 0.5);
+    color: #fff;
+}
+// 表格底部边框
+::v-deep .vxe-table--border-line {
+    border-style: solid solid none;
+    border-width: 1px;
+    border-color: #fff;
+}

@@ -1,0 +1,26 @@
+$color:#25afdf;
+$bg:rgba($color: $color, $alpha: .6);
+$shadow:rgba($color: $color, $alpha: .3);
+
+.ytxd-map-check-box{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: $bg;
+    backdrop-filter: blur(3px);
+    box-shadow:inset 0px 15px 15px -15px $shadow,
+             inset 0px -15px 15px -15px $shadow;
+}
+
+/deep/ .el-checkbox__input.is-checked+.el-checkbox__label{
+    color: #F7EED6;
+}
+
+.el-checkbox{
+    color: #F7EED6;
+}

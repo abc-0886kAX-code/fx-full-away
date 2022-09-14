@@ -1,0 +1,111 @@
+.play-slice-axis {
+    position: fixed;
+    // 减掉左右两边网格菜单的宽度
+    width: calc(100% - 980px);
+    bottom: 20px;
+    left: 50%;
+    z-index: 201;
+    transform: translateX(-50%);
+
+    &-slider {
+        width: 100%;
+        height: auto;
+    }
+
+    &-group {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        box-sizing: border-box;
+
+        &-control,
+        &-time,
+        &-slot {
+            display: flex;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        &-time {
+            background-color: #fff;
+            border-radius: 4px;
+            width: 220px;
+            height: 28px;
+            align-items: center;
+            color: #000;
+            font-weight: bold;
+            font-size: 14px;
+            margin: auto 0;
+            justify-content: center;
+        }
+
+        &-slot>* {
+            align-self: center;
+        }
+
+        &-control {
+            &-button {
+                align-self: center;
+            }
+        }
+    }
+}
+
+
+.play-slice-axis-left {
+    position: fixed;
+    width: calc(100% - 560px);
+    bottom: 20px;
+    right: 35%;
+    z-index: 201;
+    transform: translateX(10%);
+
+    &-slider {
+        width: 100%;
+        height: auto;
+    }
+
+    &-group {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        box-sizing: border-box;
+
+        &-control,
+        &-time,
+        &-slot {
+            display: flex;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        &-time {
+            background-color: #fff;
+            border-radius: 4px;
+            width: 220px;
+            height: 28px;
+            align-items: center;
+            color: #000;
+            font-weight: bold;
+            font-size: 14px;
+            margin: auto 0;
+            justify-content: center;
+        }
+
+        &-slot>* {
+            align-self: center;
+        }
+
+        &-control {
+            &-button {
+                align-self: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "site": {
+        "uiSchema": {
+            "stripe": true
+        },
+        "columnSchema": [
+            {
+                "prop": "stnm",
+                "mold": "default",
+                "label": "站点名称",
+                "align": "center"
+            },
+            {
+                "prop": "stcd",
+                "mold": "default",
+                "label": "站点编码",
+                "align": "center"
+            },
+            {
+                "prop": "addvcd",
+                "mold": "default",
+                "isSort": true,
+                "label": "区县",
+                "align": "center"
+            },
+            {
+                "prop": "hnnm",
+                "mold": "default",
+                "isSort": true,
+                "label": "流域",
+                "align": "center"
+            },
+            {
+                "prop": "r",
+                "mold": "default",
+                "label": "降雨量(mm)",
+                "align": "center"
+            }
+        ]
+    },
+    "basin": {
+        "uiSchema": {
+            "stripe": true
+        },
+        "columnSchema": [
+            {
+                "prop": "hnnm",
+                "mold": "default",
+                "label": "流域名称",
+                "align": "center"
+            },
+            {
+                "prop": "r",
+                "mold": "default",
+                "label": "平均降雨量",
+                "align": "center"
+            },
+            {
+                "prop": "starttime",
+                "mold": "default",
+                "label": "开始时间",
+                "align": "center"
+            },
+            {
+                "prop": "endtime",
+                "mold": "default",
+                "label": "结束时间",
+                "align": "center"
+            }
+        ]
+    },
+    "addvcd": {
+        "uiSchema": {
+            "stripe": true
+        },
+        "columnSchema": [
+            {
+                "prop": "addvcd",
+                "mold": "default",
+                "label": "区县名称",
+                "align": "center"
+            },
+            {
+                "prop": "r",
+                "mold": "default",
+                "label": "平均降雨量",
+                "align": "center"
+            },
+            {
+                "prop": "starttime",
+                "mold": "default",
+                "label": "开始时间",
+                "align": "center"
+            },
+            {
+                "prop": "endtime",
+                "mold": "default",
+                "label": "结束时间",
+                "align": "center"
+            }
+        ]
+    }
+}

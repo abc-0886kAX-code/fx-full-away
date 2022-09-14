@@ -1,0 +1,82 @@
+.ytxd-nav-layout {
+    // background-image: linear-gradient(to right, #25afdf, #10244b);
+    background-color: transparent;
+    z-index: 3;
+}
+
+.ytxd-content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 3;
+
+    & .ytxd-header {
+        display: flex;
+        justify-content: space-between;
+        z-index: 3;
+
+        /deep/.el-menu--horizontal>.el-menu-item.is-active {
+            border-bottom: 2px solid #0e5ec0;
+            background-color: #0e5ec0;
+            color: #ffffff;
+        }
+
+        /deep/.el-menu--horizontal>.el-submenu.is-active .el-submenu__title {
+            border-bottom: 2px solid #0e5ec0;
+            background-color: #0e5ec0;
+            color: #ffffff;
+        }
+
+        /deep/.el-menu--horizontal>.el-submenu .el-submenu__title {
+            color: #ffffff;
+        }
+
+        /deep/.el-menu--horizontal>.el-menu-item {
+            color: #ffffff;
+        }
+
+        /deep/.el-icon-arrow-down:before {
+            color: #ffffff;
+        }
+
+        /deep/ .el-menu--horizontal>.el-submenu .el-submenu__title:hover {
+            background-color: #0e5ec0;
+        }
+
+        /deep/.el-menu--horizontal>.el-menu-item:not(.is-disabled):hover {
+            background-color: #0e5ec0;
+            color: #ffffff;
+        }
+
+    }
+
+    & .ytxd-main {
+        position: relative;
+        z-index: 3;
+        width: 100%;
+        height: calc(100% - 80px);
+        overflow: hidden;
+
+        & .ytxd-main-content {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            overflow: hidden;
+        }
+    }
+}
+
+video {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    /*加滤镜*/
+    /*filter: blur(15px); //背景模糊设置 */
+    /*-webkit-filter: grayscale(100%);*/
+    /*filter:grayscale(100%); //背景灰度设置*/
+    z-index: 0;
+}

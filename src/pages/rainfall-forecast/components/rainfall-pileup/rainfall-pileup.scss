@@ -1,0 +1,37 @@
+.rainfall-pileup {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.rainfall-pileup-select {
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+
+    &/deep/.el-date-editor--datetimerange.el-input__inner {
+        width: 227px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 5px;
+    }
+
+    &/deep/.el-date-editor .el-range-separator {
+        line-height: 20px;
+    }
+
+    &/deep/.el-date-editor .el-range__icon {
+        line-height: 25px;
+    }
+
+    &/deep/.el-button {
+        padding: 7px 7px;
+    }
+}
+
+.rainfall-events-chart {
+    width: 100%;
+    height: 80%;
+}

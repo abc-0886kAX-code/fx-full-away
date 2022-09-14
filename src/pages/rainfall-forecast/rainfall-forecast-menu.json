@@ -1,0 +1,48 @@
+{
+    "defaultID": "6d9fe0a4cfb640c2a380a3a248492083",
+    "resetID": "6d9fe0a4cfb640c2a380a3a248492083",
+    "menu": [
+        {
+            "id": "6d9fe0a4cfb640c2a380a3a248492083",
+            "label": "降雨预报",
+            "component": "rainfall-forecast-default",
+            "render": false,
+            "fragment": true
+        },
+        {
+            "id": "33df66e375b94b1da8fb7a680dfd00de",
+            "label": "降雨预报",
+            "component": "rainfall-forecast-default-map"
+        },
+        {
+            "id": "ab5b556ec32b432197a40600ce2db276",
+            "label": "累计雨量",
+            "component": "rainfall-pileup"
+        },
+        {
+            "id": "2a20a2dc988f4bc4bd6671154104b6b9",
+            "label": "最大雨强",
+            "component": "rainfall-max-hour"
+        },
+        {
+            "id": "bc1dc05aee734b25ba708a86845df987",
+            "label": "雨峰时间",
+            "component": "rainfall-peak"
+        },
+        {
+            "id": "233ac7934f154ec5a9760495637633ac",
+            "label": "降雨开始时间",
+            "component": "rainfall-start"
+        },
+        {
+            "id": "901ffba7749b4f808c34e4364aff664d",
+            "label": "时段降雨量",
+            "dialog": "rainfall-average-hour"
+        },
+        {
+            "id": "b9a1015a33e443f9a5f66e5ede21dc68",
+            "label": "雷达回波图",
+            "component": "radar-echo-map"
+        }
+    ]
+}

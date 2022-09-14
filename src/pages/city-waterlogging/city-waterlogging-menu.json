@@ -1,0 +1,30 @@
+{
+    "defaultID": "b2ff43fa41f74c2b8fb4e20852ca50c9",
+    "menu": [
+        {
+            "id": "b2ff43fa41f74c2b8fb4e20852ca50c9",
+            "label": "城市内涝",
+            "component": "city-waterlogging-default",
+            "fragment": true,
+            "power": [
+                0
+            ]
+        },
+        {
+            "id": "57eccfe7fa5f4715a07f890773f91368",
+            "label": "中心城区",
+            "component": "city-waterlogging-centre",
+            "power": [
+                0
+            ]
+        },
+        {
+            "id": "9c5f6b9bd73043dda5dbe0d30af74dd4",
+            "label": "副中心城区",
+            "component": "city-waterlogging-sub-centre",
+            "power": [
+                0
+            ]
+        }
+    ]
+}

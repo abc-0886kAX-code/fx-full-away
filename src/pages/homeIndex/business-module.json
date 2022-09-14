@@ -1,0 +1,62 @@
+[
+    {
+        "name": "rainfall-forecast",
+        "className": [
+            "rainfall-forecast"
+        ],
+        "power": [
+            0
+        ],
+        "sort": 1
+    },
+    {
+        "name": "real-time-monitor",
+        "className": [
+            "real-time-monitor"
+        ],
+        "power": [
+            0
+        ],
+        "sort": 2
+    },
+    {
+        "name": "digital-twin",
+        "className": [
+            "digital-twins"
+        ],
+        "power": [
+            0
+        ],
+        "sort": 3
+    },
+    {
+        "name": "basin-flood",
+        "className": [
+            "basin-flood"
+        ],
+        "power": [
+            0
+        ],
+        "sort": 4
+    },
+    {
+        "name": "city-waterlogging",
+        "className": [
+            "city-waterlogging"
+        ],
+        "power": [
+            0
+        ],
+        "sort": 5
+    },
+    {
+        "name": "flash-flood-defense",
+        "className": [
+            "flash-flood-defense"
+        ],
+        "power": [
+            0
+        ],
+        "sort": 6
+    }
+]

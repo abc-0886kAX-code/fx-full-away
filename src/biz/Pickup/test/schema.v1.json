@@ -1,0 +1,94 @@
+[
+    {
+        "id": "1719bf2f4cbd449093cbcd2ccd694dd3",
+        "label": "防洪堵口",
+        "service": {
+            "type": "arcgis",
+            "url": "/arcgis/rest/services/FX/TEST1217/MapServer",
+            "params": {
+                "geometryType": "esriGeometryEnvelope",
+                "spatialRel": "esriSpatialRelIntersects",
+                "outFields": "*",
+                "returnGeometry": true,
+                "returnTrueCurves": false,
+                "outSR": 4326,
+                "returnIdsOnly": false,
+                "returnCountOnly": false,
+                "returnZ": false,
+                "returnM": false,
+                "returnDistinctValues": false,
+                "f": "json",
+                "where": "区属 like '%平谷%'"
+            }
+        },
+        "legend": {
+            "type": "arcgis",
+            "url": "/arcgis/rest/services/FX/TEST1217/MapServer/legend",
+            "layerId": 0,
+            "params": {
+                "f": "json"
+            }
+        },
+        "render": true,
+        "disable": false,
+        "default": false
+    },
+    {
+        "id": "b21f8e55f565465796604f8abad349bb",
+        "label": "河道",
+        "service": {
+            "type": "arcgis",
+            "url": "/arcgis/rest/services/FX/River/MapServer/0",
+            "params": {
+                "geometryType": "esriGeometryEnvelope",
+                "spatialRel": "esriSpatialRelIntersects",
+                "outFields": "*",
+                "returnGeometry": true,
+                "returnTrueCurves": false,
+                "outSR": 4326,
+                "returnIdsOnly": false,
+                "returnCountOnly": false,
+                "returnZ": false,
+                "returnM": false,
+                "returnDistinctValues": false,
+                "f": "json",
+                "where": "1=1"
+            }
+        },
+        "legend": {
+            "type": "arcgis",
+            "url": "/arcgis/rest/services/FX/River/MapServer/legend",
+            "layerId": 1,
+            "params": {
+                "f": "json"
+            }
+        },
+        "render": true,
+        "disable": true,
+        "default": true
+    },
+    {
+        "id": "54539df40fba4c838f3b2cb0c6ce26a5",
+        "label": "山洪险村",
+        "service": {
+            "type": "web",
+            "url": "/SW/MFRV/getMFRVList",
+            "params": {
+                "areaname": "平谷区"
+            }
+        },
+        "legend": {
+            "type": "style",
+            "shape": "circle",
+            "color": [
+                255,
+                0,
+                0,
+                1
+            ]
+        },
+        "render": true,
+        "disable": true,
+        "default": false
+    }
+]

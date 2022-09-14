@@ -1,0 +1,8 @@
+.biz-controller-tables{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /deep/.el-pagination{
+        align-self: center;
+    }
+}

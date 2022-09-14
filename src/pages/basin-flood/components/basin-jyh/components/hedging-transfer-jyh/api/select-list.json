@@ -1,0 +1,38 @@
+[
+    {
+        "key": "prevention-transfer",
+        "label": "转移安置",
+        "status": false,
+        "legend": "#4CBF29",
+        "children": []
+    },
+    {
+        "key": "prevention-material",
+        "label": "防汛物资",
+        "status": false,
+        "legend": "#FFAA44",
+        "children": []
+    },
+    {
+        "key": "prevention-ranks",
+        "label": "抢险队伍",
+        "status": false,
+        "legend": "#F33662",
+        "children": [
+            {
+                "key": "rescue-ranks",
+                "label": "防汛队伍",
+                "status": false,
+                "legend": "#13C6D7",
+                "children": []
+            },
+            {
+                "key": "water-conservancy-ranks",
+                "label": "水利队伍",
+                "status": false,
+                "legend": "#EB3E4E",
+                "children": []
+            }
+        ]
+    }
+]
