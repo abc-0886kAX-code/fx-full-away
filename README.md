@@ -61,6 +61,7 @@ arcgis图层服务地址 : .env : VUE_APP_ARCGIS_SERVER
 _[各地编码 JSON-id](https://gist.github.com/axiaoxin/51f32349802b199323b7)_
 
 _[将上述复制的 id 替换到此路径中](http://data.mars3d.cn/file/geojson/areas/341100.json)_
+
 `上述是从 mars3d 官方中获取对应的市区边界范围 JSON 文件`
 
 `以下是从公司服务器地址取对应的 JSON 文件以及实现方法的具体文件`
