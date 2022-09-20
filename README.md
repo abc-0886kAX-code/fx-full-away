@@ -3,7 +3,7 @@
  * @Author: zhangxin
  * @Date: 2022-09-02 09:46:03
  * @LastEditors: zhangxin
- * @LastEditTime: 2022-09-20 09:23:51
+ * @LastEditTime: 2022-09-20 10:07:00
  * @Description:
 -->
 
@@ -12,8 +12,14 @@
 ## 项目名称更换
 
 `关键字` **防汛作战业务化应用平台**
+
 `需修改路径 login.vue index.html home.vue`
+
 `头部项目名称是背景图 - home.scss header.png`
+
+## 天气区域切换
+
+`other.js getWeather方法 替换 params.city 注：不要带市和区; 如: 青岛、铁西 ，修改后清除浏览器localStorage`
 
 ## 接口地址更换
 
