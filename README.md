@@ -1,9 +1,9 @@
 <!--
- * @FilePath: \undefinede:\前端\fx-full-away\README.md
+ * @FilePath: \fx-full-away\README.md
  * @Author: zhangxin
  * @Date: 2022-09-02 09:46:03
  * @LastEditors: zhangxin
- * @LastEditTime: 2022-09-19 16:07:13
+ * @LastEditTime: 2022-09-20 09:20:38
  * @Description:
 -->
 
@@ -59,10 +59,13 @@ arcgis图层服务地址 : .env : VUE_APP_ARCGIS_SERVER
 ### 身份遮罩层
 
 _[各地编码 JSON-id](https://gist.github.com/axiaoxin/51f32349802b199323b7)_
-_[将上面复制的 id 替换到此路径中](http://data.mars3d.cn/file/geojson/areas/341100.json)_
+
+_[将上述复制的 id 替换到此路径中](http://data.mars3d.cn/file/geojson/areas/341100.json)_
+上述是从 mars3d 官方中获取对应的市区边界范围 JSON 文件
+以下是从公司服务器中取对应的 JSON 文件以及实现方法的具体位置
 
 ```
-1.获取JSON的基础地址 Mask.js UserMaskURI 根据用户addvcd(地区编码)拼接地址获取JSON
+1.获取JSON的基础地址 Mask.js UserMaskURI 根据用户addvcd(地区编码)拼接地址(公司服务器地址)获取JSON
 2.useUserMask.js 实现方法
 ```
 
