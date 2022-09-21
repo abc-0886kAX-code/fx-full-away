@@ -3,7 +3,7 @@
  * @Author: zhangxin
  * @Date: 2022-09-02 09:46:03
  * @LastEditors: zhangxin
- * @LastEditTime: 2022-09-20 10:07:00
+ * @LastEditTime: 2022-09-21 11:04:38
  * @Description:
 -->
 
@@ -27,7 +27,7 @@
 基础域名更换: .env : VUE_APP_BASE_URL
 请求URL前缀更换:src/config/axios.conf.js
 arcgis图层服务地址 : .env : VUE_APP_ARCGIS_SERVER
-本地遮罩层JSON数据 ： .env : VUE_APP_MASK_URL
+本地遮罩层JSON数据地址 ： .env : VUE_APP_MASK_URL
 ```
 
 ## 系统对应权限文件 context.js /src/biz/User/share/context.js
